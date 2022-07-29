@@ -191,6 +191,9 @@ h3{
 .work{
     padding: 30px 150px;
 }
+.work-cards{
+    flex-wrap: wrap;
+}
 .work .card{
     background-color: #112240;
     padding: 20px;
@@ -217,7 +220,7 @@ h3{
 
 /* -----------Contact------------ */
 .contact{
-    padding: 50px 400px;
+    padding: 50px 80px;
     text-align: center;
 }
 .contact h1{
