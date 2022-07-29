@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #0a192f;
+    color: #fff;
+}
+.green{
+    color: #64ffda;
+}
+.grey{
+    color: #8892B0;
+}
+hr{
+    border: 0px;
+    border-bottom: 1px solid #8892B0;
+    
+}
+.white{
+    color: #CCD6F6;
+}
+.btn{
+    color: #64ffda;
+    background-color: #0a192f;
+    padding: 10px 25px;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+.rotate90{
+    transform: rotate(90deg);
+}
+.h-row{
+    position: relative;
+    background-color: #8892B0;
+    padding-left: 70%;
+    margin-left: 20px;
+    height: 3px;
+    font-size: 1px;
+    vertical-align: middle;
+}
+h3{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* ------------CSS for navbar------------ */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    padding: 0px 50px;
+    font-size: 13px;
+    color: rgb(233, 233, 233);
+}
+.navbar .nav-head {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid #64ffda;
+    border-radius: 50%;
+}
+.navbar span{
+    color: #64ffda;
+}
+.navbar li{
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+/* -----------CSS for content----------- */
+.content{
+    padding: 30px 150px;
+}
+.me{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+/* -----------CSS for fixed icons------------- */
+.icon{
+    position:fixed;
+    bottom: -20px;
+}
+.icon ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon li{
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.icon .line{
+    position: relative;
+    margin-top: 40px;
+    height: 90px;
+    width: 1px;
+    background-color: #8892B0;
+}
+
+
+.email{
+    
+    position:fixed;
+    bottom: -20px;
+    right: -50px;
+}
+.email ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email li{
+    list-style-type: none;    
+    font-size: 20px;
+}
+.email .line{
+    position: relative;
+    margin-top: 130px;
+    margin-left: -5px;
+    height: 90px;
+    width: 1px;
+    background-color: #8892B0;
+}
+.email a{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+/* ----------About me----------- */
+.aboutme{
+    padding: 100px 200px;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+.aboutme>.left{
+    flex: 2;
+}
+.aboutme>.left p{
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0px 30px;
+}
+.aboutme>.right{
+    flex: 1;
+    margin-top: -120px;
+}
+.aboutme .box{
+    position: relative;
+    bottom: -270px;
+    left: 20px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #64ffda;
+    border-radius: 5px;
+    z-index: -1;
+}
+.aboutme img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.aboutme .list{
+    padding-right:30px ;
+    justify-content: space-around;
+}
+.aboutme ul{
+    list-style-type: circle;
+}
+
+/* ------------Work section------------- */
+.work{
+    padding: 30px 150px;
+}
+.work .card{
+    background-color: #112240;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.work .card>.card-icon>i{
+    font-size: 35px;
+    color: #64ffda;
+    font-weight: 100;
+}
+.work .card .ref a{
+    font-size: 25px;
+    color: #64ffda;
+    padding-left: 10px;
+}
+.work .card .card-lang{
+    font-size: 10px;
+}
+.work .card img{
+    max-width: 100%;
+}
+
+
+/* -----------Contact------------ */
+.contact{
+    padding: 50px 400px;
+    text-align: center;
+}
+.contact h1{
+    font-size: 50px;
+}
+.contact p{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ------------footer------------ */
+.footer{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding-top: 100px;
+}
+.red{
+    font-size: 30px;
+    vertical-align: middle;
+    color: red;
+}
